@@ -4,17 +4,19 @@
 
 }
 
+.font-adjust{
+
+    font-size: 24px;
+
+}
+
 #only2{
     color: blue;
     font-size: 36px;
 }
 
-#only3{
-    font-size: 24px;
-}
 
 #only4{
     background-color: lightgreen;
-    font-size: 24px;
     font-weight: 700;
 }
