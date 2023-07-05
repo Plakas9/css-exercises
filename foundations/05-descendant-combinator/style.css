@@ -1,0 +1,9 @@
+
+
+/* =========USING TYPE SELECTOR====== */
+
+div p{
+    background-color: yellow;
+    font-size: 20px;
+    color: red;
+}
