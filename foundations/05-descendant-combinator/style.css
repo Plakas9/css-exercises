@@ -1,9 +1,18 @@
 
 
-/* =========USING TYPE SELECTOR====== */
+/* =========USING TYPE SELECTOR====== 
 
 div p{
     background-color: yellow;
     font-size: 20px;
     color: red;
+}
+*/
+
+/* =========USING CLASS SELECTOR====== */
+
+.container .text{
+    background-color: yellow;
+    font-size: 20px;
+    color: red; 
 }
