@@ -9,10 +9,22 @@ div p{
 }
 */
 
-/* =========USING CLASS SELECTOR====== */
+/* =========USING CLASS SELECTOR====== 
 
 .container .text{
     background-color: yellow;
     font-size: 20px;
     color: red; 
+}
+
+*/
+
+/* =========USING CLASS & TYPE SELECTOR====== */
+
+.container p{
+
+    background-color: yellow;
+    font-size: 20px;
+    color: red;
+
 }
