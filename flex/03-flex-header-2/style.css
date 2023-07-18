@@ -9,6 +9,9 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -29,7 +32,12 @@ body {
   font-style: italic;
 }
 
+/*button.notifications{
+  margin-left: auto;
+}*/
+
 button {
+ 
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
@@ -44,5 +52,16 @@ a {
 }
 
 ul {
+  display: flex;
   list-style-type: none;
+  margin:0;
+  padding:0;
+  gap:16px;
+}
+
+.right, .left{
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
